@@ -5,13 +5,15 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "next build",
+    "export": "next export -o html",
+    "help": "next export -h"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2",
     "next": "^6.1.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
